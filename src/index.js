@@ -26,4 +26,4 @@ exports.handler = async (event, context, callback) => {
     await app.handle(new Lambda(event, context, callback));
 };
 
-//Das ist ein Push Test
+//Das ist ein Push Test e
