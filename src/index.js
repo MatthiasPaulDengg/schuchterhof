@@ -25,3 +25,5 @@ if (process.argv.indexOf('--webhook') > -1) {
 exports.handler = async (event, context, callback) => {
     await app.handle(new Lambda(event, context, callback));
 };
+
+//Das ist ein Push Test
